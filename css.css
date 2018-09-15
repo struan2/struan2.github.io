@@ -1,0 +1,43 @@
+
+h1, h2, h6 {
+font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-size: 20 px;
+  text-align: center;
+}
+h2 {
+  font-size: 18 px;
+  text-align: center;
+}
+h3 {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+p, li {
+  font-size: 14 px;
+  font-family: 'Raleway', sans-serif;
+}
+.headings {
+    background-color: rgb(30,110,108);
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+}
+.footings {
+    background-color: rgb(30,110,108);
+    padding: 10px ;
+    color: white;
+}
+body {
+      max-width: 80%;
+      margin: auto;
+}
+a:link {
+    color: grey;
+}
+h6 {
+  margin: 0px;
+}
