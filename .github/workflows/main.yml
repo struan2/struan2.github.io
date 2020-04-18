@@ -29,10 +29,14 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
 
-    - name: Microsoft Teams Webhook Notifications
-      uses: dhollerbach/actions.send-message-to-ms-teams@1.0.10
+    - name: Microsoft Teams (Generic)
+      uses: aliencube/microsoft-teams-actions@v0.8.0
       with:
-        # The webhook url for your Incoming Webhook connector
-        webhook: https://outlook.office.com/webhook/12f791d5-1e09-45f9-9df7-bd1856e43fb5@7a392e7f-227a-46c2-8c4c-c46348686bee/IncomingWebhook/f43ae6e411534c519c0e0d8ac51a7429/eca2db11-ec09-44de-8cbf-d5d2f93856e4
-        # The message you want to send to your Microsoft Teams channel
-        message: Welcome, to Teams Testing 123...
+        # Incoming webhook URI to Microsoft Teams
+        webhook_uri: https://outlook.office.com/webhook/12f791d5-1e09-45f9-9df7-bd1856e43fb5@7a392e7f-227a-46c2-8c4c-c46348686bee/IncomingWebhook/f43ae6e411534c519c0e0d8ac51a7429/eca2db11-ec09-44de-8cbf-d5d2f93856e4
+        # Message title
+        title: GitHub# optional, default is 
+        # Message summary
+        summary: This is a summary of the message yjay says all is okay# optional, default is 
+        # Message text
+        text: No need to worry all is okay!# optional, default is 
